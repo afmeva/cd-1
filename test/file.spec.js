@@ -17,7 +17,7 @@ describe('Calculator', function () {
     it('should subs values', function () {
       assert.equal(sub(2, 2), 0)
       assert.equal(sub(5, 3), 2)
-      assert.equal(sub(3, 6), 3)
+      assert.equal(sub(3, 6), -3)
     })
   })
 })
